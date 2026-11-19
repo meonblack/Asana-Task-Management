@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "criteria": [
+    {
+      "name": "actionability",
+      "max_points": 2,
+      "guidance": "Verb-led specific outcome"
+    },
+    {
+      "name": "scope",
+      "max_points": 2,
+      "guidance": "One task, clear boundaries"
+    },
+    {
+      "name": "completion_criteria",
+      "max_points": 2,
+      "guidance": "Objectively checkable deliverable"
+    },
+    {
+      "name": "traceability",
+      "max_points": 2,
+      "guidance": "Cited original source/quote"
+    },
+    {
+      "name": "assignment_and_timing",
+      "max_points": 2,
+      "guidance": "Supported assignee and due date, or explicitly null"
+    }
+  ],
+  "max_points": 10,
+  "recommended_review_threshold": 8,
+  "note": "Quality score is advisory; approval always required."
+}

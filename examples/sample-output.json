@@ -1,0 +1,30 @@
+{
+  "proposal_id": "demo-001",
+  "title": "Prepare weekly onboarding checklist",
+  "description": "Create an updated onboarding checklist for the team.",
+  "acceptance_criteria": [
+    "Checklist document created",
+    "Checklist shared with reviewers"
+  ],
+  "source": {
+    "type": "meeting",
+    "id": "meeting-demo-001",
+    "url": null,
+    "quote": "The team agreed that Leslie will prepare the weekly onboarding checklist by Friday."
+  },
+  "project_gid": null,
+  "section_gid": null,
+  "assignee_gid": null,
+  "due_date": null,
+  "priority": "High",
+  "confidence": 0.88,
+  "review_required": true,
+  "fingerprint": "generated-by-cli",
+  "status": "pending_review",
+  "uncertain_fields": [
+    "project_gid",
+    "section_gid",
+    "assignee_gid",
+    "due_date"
+  ]
+}

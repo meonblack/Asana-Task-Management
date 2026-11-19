@@ -1,0 +1,26 @@
+{
+  "source": {
+    "type": "meeting",
+    "id": "meeting-demo-001",
+    "url": null,
+    "quote": "The team agreed that Leslie will prepare the weekly onboarding checklist by Friday."
+  },
+  "tasks": [
+    {
+      "proposal_id": "demo-001",
+      "title": "Prepare weekly onboarding checklist",
+      "description": "Create an updated onboarding checklist for the team.",
+      "acceptance_criteria": [
+        "Checklist document created",
+        "Checklist shared with reviewers"
+      ],
+      "project_gid": null,
+      "section_gid": null,
+      "assignee_gid": null,
+      "due_date": null,
+      "urgency": 2,
+      "impact": 2,
+      "confidence": 0.88
+    }
+  ]
+}

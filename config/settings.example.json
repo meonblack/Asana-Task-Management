@@ -1,0 +1,19 @@
+{
+  "dry_run": true,
+  "write_requires_approval": true,
+  "timezone": "Africa/Abidjan",
+  "minimum_extraction_confidence": 0.8,
+  "reporting": {
+    "weekly_enabled": false,
+    "weekday": "MONDAY",
+    "hour_local": 8
+  },
+  "reminders": {
+    "enabled": false,
+    "days_before_due": [
+      1
+    ]
+  },
+  "data_retention_days": 90,
+  "default_project_gid": null
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Explicit Review Decision",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "proposal_id",
+    "reviewer_id",
+    "decision",
+    "reviewed_at"
+  ],
+  "properties": {
+    "proposal_id": {
+      "type": "string"
+    },
+    "reviewer_id": {
+      "type": "string"
+    },
+    "decision": {
+      "enum": [
+        "approve",
+        "reject",
+        "request_changes"
+      ]
+    },
+    "reviewed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "comment": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "approved_payload_hash": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

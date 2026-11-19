@@ -1,0 +1,23 @@
+{
+  "workspace_gid": null,
+  "projects": [
+    {
+      "name": "Weekly Tasks",
+      "gid": null,
+      "sections": [
+        {
+          "name": "Leslie",
+          "gid": null
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "Example Team Member",
+      "email": null,
+      "asana_gid": null
+    }
+  ],
+  "notes": "All GIDs must be verified using connected Asana read operations before publication."
+}

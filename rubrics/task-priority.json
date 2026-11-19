@@ -1,0 +1,45 @@
+{
+  "version": "1.0",
+  "scale": {
+    "urgency": {
+      "0": "No confirmed deadline or urgency",
+      "1": "Time-sensitive within 2+ weeks",
+      "2": "Due within 7 days",
+      "3": "Due within 48 hours or explicitly time-critical"
+    },
+    "impact": {
+      "0": "Low consequence",
+      "1": "Individual productivity benefit",
+      "2": "Team or customer deliverable",
+      "3": "Major operational, contractual, financial or safety consequence"
+    }
+  },
+  "calculation": "urgency + impact",
+  "bands": [
+    {
+      "min": 0,
+      "max": 1,
+      "priority": "Low"
+    },
+    {
+      "min": 2,
+      "max": 3,
+      "priority": "Normal"
+    },
+    {
+      "min": 4,
+      "max": 5,
+      "priority": "High"
+    },
+    {
+      "min": 6,
+      "max": 6,
+      "priority": "Urgent"
+    }
+  ],
+  "rules": [
+    "Urgency must be supported by an explicit due date or credible stated urgency.",
+    "Do not infer safety/financial urgency without evidence.",
+    "Human review can override with recorded justification."
+  ]
+}
